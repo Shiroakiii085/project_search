@@ -38,7 +38,7 @@ if (app == "fb") {
             alert ("Hidden Voice: Lướt Group tí đê!")
             top.location = "https://www.facebook.com/groups/mixigaming"
         } else if (mixi == "nimo:mixi") {
-            alert ("Hidden Voice: Chuyển sới để cả lò nhà mình ơi, ai xem tiếp qua Nimotv/mixi nhá!")
+            alert ("Hidden Voice: Chuyển sới đê cả lò nhà mình ơi, ai xem tiếp qua Nimotv/mixi nhá!")
             top.location = "https://www.nimo.tv/mixi"
         } else if (mixi == "restream:mixi") {
             alert ("Hidden Voice: Restream!")
