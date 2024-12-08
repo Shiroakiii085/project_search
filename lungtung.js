@@ -62,7 +62,10 @@ if (app == "fb") {
             top.location = " "
         }
     } else {
-        alert ("Teleport Gate: ID không tồn tại! Hãy nhập đúng!!!")
+        alert ("Teleport Gate: Secret ID Invalid! Return to Teleport Gate!")
         top.location = " "
     }
+} else {
+    alert ("Teleport Gate: ID không tồn tại! Hãy nhập đúng!!!")
+    top.location = " "
 }
