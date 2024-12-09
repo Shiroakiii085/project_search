@@ -1,6 +1,6 @@
 var app = "ID";
 app = window.prompt("Teleport Gate: Please choose ID!")
-console.log("ID: fb, tt, zl, ytb, codename:crack,ani , sc, lms, github,poke:rogue")
+console.log("ID: fb, tt, zl, ytb, codename:crack,ani , sc, lms, github,poke:rogue, y1:2")
 if (app == "fb"){
     alert ("Teleport Gate: Lét gâu to Phở Bò!")
     top.location = "https://www.facebook.com"
@@ -98,8 +98,8 @@ if (app == "fb"){
     alert ("Teleport Gate: You choose Pokémon Rogue, Good Luck!")
     top.location = "https://pokerogue.net/"
 } else if (app == "y1:2") {
-    alert ("Teleport Gate: Năm nhất kì 2")
     console.log("ID: dstt, fe, ctdl, ktmt.")
+    alert ("Teleport Gate: Năm nhất kì 2")
     var monhoc = "y1:2"
     monhoc = window.prompt("Ngành: CNTT, Nhập ID: (lms:type)")
     if (monhoc == "lms:dstt"){
