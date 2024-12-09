@@ -66,6 +66,16 @@ if (app == "fb") {
             alert ("Mysterious Voice: ID Invalid! Return to Teleport Gate")
             top.location = " "
         }
+    } else if (secret =="admin:repo"){
+        var pass = "admin"
+        pass = window.prompt("Enter the ADMINISTRATOR_PASSWORD: ")
+        if(pass == "08052006"){
+            alert ("Mysterious Voice: Welcome back MASTER!!!")
+            top.location = "https://github.com/Shiroakiii085/project_search"
+        } else {
+            alert ("Mysterious Voice: FUCK OFFF!!!")
+            top.location = " "
+        }
     } else {
         alert ("Teleport Gate: Secret ID Invalid! Return to Teleport Gate!")
         top.location = " "
