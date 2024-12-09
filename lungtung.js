@@ -1,5 +1,6 @@
 var app = "ID";
 app = window.prompt("Teleport Gate: Please choose ID!")
+console.log("ID: fb, tt, zl, ytb, codename:crack,ani , sc, lms, github,poke:rogue")
 if (app == "fb") {
     alert ("Teleport Gate: Lét gâu to Phở Bò!")
     top.location = "https://www.facebook.com"
@@ -27,6 +28,7 @@ if (app == "fb") {
         alert ("Mysterious Voice: You enter the secret code, ID:R.R, Just For Fun!")
         top.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     } else if (secret == "mixi") {
+        console.log("MIXI ID: ytb, fb, dotoc, nimo, restream")
         alert ("Mysterious Voice: Hello MixiMoi Fan...!")
         var mixi = "address"
         mixi = window.prompt("Mysterious Voice: Choose the ID you want, type:mixi!")
@@ -50,6 +52,7 @@ if (app == "fb") {
             top.location = " "
         }
     } else if (secret =="ani") {
+        console.log("Ani ID: ytb:ani, web:ani")
         alert ("Mysterious Voice: It's Quý Bửu Time!")
         var anime = "ani"
         anime = window.prompt("Mysterious Voice: Choose the ID you want, type:ani!")
