@@ -1,64 +1,66 @@
 var app = "ID";
 app = window.prompt("Teleport Gate: Please choose ID!")
 if (app == "fb") {
-    alert ("Teleport Gate: You choosen Facebook, Good Luck!")
+    alert ("Teleport Gate: Lét gâu to Phở Bò!")
     top.location = "https://www.facebook.com"
 } else if (app == "tt") {
-    alert ("Teleport Gate: You choosen TikTok, Good Luck!")
+    alert ("Teleport Gate: Tóp Tóp is Coming!")
     top.location = "https://www.tiktok.com"
 } else if (app == "zl") {
-    alert ("Teleport Gate: You choosen Zalo, Good Luck!")
+    alert ("Teleport Gate: Zép lào??!")
     top.location = "https://www.zalo.me"
 } else if (app == "ytb") {
-    alert ("Teleport Gate: You choosen Youtube, Good Luck!")
+    alert ("Teleport Gate: Diu túp for you!")
     top.location = "https://www.youtube.com"
 } else if (app == "codename:crack") {
     alert ("Teleport Gate: You choosen CODENAME:CRACK, Good Luck!")
     top.location = "https://hadoantv.com/"
 } else if (app == "sc") {
-    alert ("Teleport Gate: You choosen SoundCloud, Good Luck!")
+    alert ("Teleport Gate: Let's the Music Time Begin!")
     top.location = "https://soundcloud.com"
 } else if (app == "terces"){
     var secret = "secret1"
-    secret = window.prompt("Teleport Gate: @!@@$#%##@!#!$$#@")
+    alert("Teleport Gate: ERROR@!@@$#%##@!#!$$#@")
+    alert ("Teleport Gate is disappear, The mysterious voice echoed throughout the space!!!")
+    secret = window.prompt("Mysterious Vocie: Choose your Secret ID")
     if (secret == "rr"){
-        alert ("Hidden Voice: You enter the secret code, ID:RickRoll, Good Luck!")
+        alert ("Mysterious Voice: You enter the secret code, ID:R.R, Just For Fun!")
         top.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     } else if (secret == "mixi") {
-        alert ("Hidden Voice: Hello MixiMoi Fan...!")
+        alert ("Mysterious Voice: Hello MixiMoi Fan...!")
         var mixi = "address"
-        mixi = window.prompt("Hidden Voice: Choose the ID you want !")
+        mixi = window.prompt("Mysterious Voice: Choose the ID you want, type:mixi!")
         if (mixi == "ytb:mixi") {
-            alert ("Hidden Voice: Dâu! Hế lô xin chào cả nhà iu")
+            alert ("Mysterious Voice: Dâu! Hế lô xin chào cả nhà iu")
             top.location = "https://www.youtube.com/@MixiGaming3con"
         } else if (mixi == "fb:mixi") {
-            alert ("Hidden Voice: You choose Facebook of MixiMoi, Good Luck!")
+            alert ("Mysterious Voice: You choose Facebook of MixiMoi, Good Luck!")
             top.location = "https://www.facebook.com/MixiGaming/"
         } else if (mixi == "dotoc:mixi") {
-            alert ("Hidden Voice: Lướt Group tí đê!")
+            alert ("Mysterious Voice: Lướt Group tí đê!")
             top.location = "https://www.facebook.com/groups/mixigaming"
         } else if (mixi == "nimo:mixi") {
-            alert ("Hidden Voice: Chuyển sới đê cả lò nhà mình ơi, ai xem tiếp qua Nimotv/mixi nhá!")
+            alert ("Mysterious Voice: Chuyển sới đê cả lò nhà mình ơi, ai xem tiếp qua Nimotv/mixi nhá!")
             top.location = "https://www.nimo.tv/mixi"
         } else if (mixi == "restream:mixi") {
-            alert ("Hidden Voice: Restream!")
+            alert ("Mysterious Voice: Restream!")
             top.location = "https://mixigaming.com/"
         } else {
-            alert ("Hidden Voice: ID không tồn tại! Hãy trở lại Teleport Gate")
+            alert ("Mysterious Voice: ID Invalid! Return to Teleport Gate")
             top.location = " "
         }
     } else if (secret =="ani") {
-        alert ("Hidden Voice: It's Wibu Time!")
+        alert ("Mysterious Voice: It's Quý Bửu Time!")
         var anime = "ani"
-        anime = window.prompt("Hidden Voice: Choose the ID you want!")
+        anime = window.prompt("Mysterious Voice: Choose the ID you want, type:ani!")
         if (anime == "ytb:ani") {
-            alert ("Hidden Voice: Yes sir, go to Muse VN!")
+            alert ("Mysterious Voice: Yes sir, go to Muse VN!")
             top.location = "https://www.youtube.com/c/MuseVi%E1%BB%87tNam"
         } else if (anime == "web:ani") {
-            alert ("Hidden Voice: Oke bro, go to AnimeHay.tv")
+            alert ("Mysterious Voice: Oke bro, go to AnimeHay.tv")
             top.location = "https://animehay.tv/"
         } else {
-            alert ("Hidden Voice: ID không tồn tại! Hãy trở lại Teleport Gate")
+            alert ("Mysterious Voice: ID Invalid! Return to Teleport Gate")
             top.location = " "
         }
     } else {
@@ -75,6 +77,6 @@ if (app == "fb") {
     alert ("Teleport Gate: You choose Pokémon Rogue, Good Luck!")
     top.location = "https://pokerogue.net/"
 } else {
-    alert ("Teleport Gate: ID không tồn tại! Hãy nhập đúng!!!")
+    alert ("Teleport Gate: ID Invalid!!!")
     top.location = " "
 }
