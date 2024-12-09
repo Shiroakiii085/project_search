@@ -70,7 +70,10 @@ if (app == "fb") {
     top.location = "https://fitdnu.net/"
 } else if (app == "github"){
     alert ("Teleport Gate: You choose Github, Let's go Coder!!!")
-    top.location = "https://github.com" 
+    top.location = "https://github.com"
+} else if (app == "poke:rogue"){
+    alert ("Teleport Gate: You choose Pokémon Rogue, Good Luck!")
+    top.location = "https://pokerogue.net/"
 } else {
     alert ("Teleport Gate: ID không tồn tại! Hãy nhập đúng!!!")
     top.location = " "
