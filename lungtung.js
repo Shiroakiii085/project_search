@@ -34,7 +34,7 @@ if (app == "fb") {
         } else if (mixi == "fb:mixi") {
             alert ("Hidden Voice: You choose Facebook of MixiMoi, Good Luck!")
             top.location = "https://www.facebook.com/MixiGaming/"
-        } else if (mixi == "gr:dotoc") {
+        } else if (mixi == "dotoc:mixi") {
             alert ("Hidden Voice: Lướt Group tí đê!")
             top.location = "https://www.facebook.com/groups/mixigaming"
         } else if (mixi == "nimo:mixi") {
@@ -65,6 +65,12 @@ if (app == "fb") {
         alert ("Teleport Gate: Secret ID Invalid! Return to Teleport Gate!")
         top.location = " "
     }
+} else if (app == "lms"){
+    alert ("Teleport Gate: You choose LMS-DNU!!! Let's go!")
+    top.location = "https://fitdnu.net/"
+} else if (app == "github"){
+    alert ("Teleport Gate: You choose Github, Let's go Coder!!!")
+    top.location = "https://github.com" 
 } else {
     alert ("Teleport Gate: ID không tồn tại! Hãy nhập đúng!!!")
     top.location = " "
