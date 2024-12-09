@@ -113,7 +113,7 @@ if (app == "fb"){
         top.location = "https://fitdnu.net/course/view.php?id=62"
     } else if (monhoc == "lms:ktmt"){
         alert ("Teleport Gate: Kiến Trúc và Hệ Điều Hành Máy Tính")
-        top.location = "https://fitdnu.net/course/view.php?id=64"
+        top.location = "https://fitdnu.net/course/view.php?id=168"
     } else {
         alert ("Teleport Gate: ID Invalid!!!")
         top.location = "https://shiroakiii085.github.io/project_search/"
