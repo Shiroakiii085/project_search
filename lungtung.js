@@ -97,6 +97,26 @@ if (app == "fb"){
 } else if (app == "poke:rogue"){
     alert ("Teleport Gate: You choose Pokémon Rogue, Good Luck!")
     top.location = "https://pokerogue.net/"
+} else if (app == "y1:2") {
+    alert ("Teleport Gate: Năm nhất kì 2")
+    var monhoc = "y1:2"
+    monhoc = window.prompt("Ngành: CNTT, Nhập ID: (lms:type)")
+    if (monhoc == "lms:dstt"){
+        alert ("Teleport Gate: Đại Số Tuyến Tính và Tối Ưu")
+        top.location = "https://fitdnu.net/course/view.php?id=144"
+    } else if (monhoc == "lms:fe"){
+        alert ("Teleport Gate: Thiết Kế, Lập Trình Front-End")
+        top.location = "https://fitdnu.net/course/view.php?id=67"
+    } else if (monhoc == "lms:cttdl"){
+        alert ("Teleport Gate: Cấu Trúc Dữ Liệu và Giải Thuật")
+        top.location = "https://fitdnu.net/course/view.php?id=62"
+    } else if (monhoc == "lms:ktmt"){
+        alert ("Teleport Gate: Kiến Trúc và Hệ Điều Hành Máy Tính")
+        top.location = "https://fitdnu.net/course/view.php?id=64"
+    } else {
+        alert ("Teleport Gate: ID Invalid!!!")
+        top.location = "https://shiroakiii085.github.io/project_search/"
+    }
 } else {
     alert ("Teleport Gate: ID Invalid!!!")
     top.location = "https://shiroakiii085.github.io/project_search/"
