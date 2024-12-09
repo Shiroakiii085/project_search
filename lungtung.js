@@ -99,6 +99,7 @@ if (app == "fb"){
     top.location = "https://pokerogue.net/"
 } else if (app == "y1:2") {
     alert ("Teleport Gate: Năm nhất kì 2")
+    console.log("ID: dstt, fe, ctdl, ktmt.")
     var monhoc = "y1:2"
     monhoc = window.prompt("Ngành: CNTT, Nhập ID: (lms:type)")
     if (monhoc == "lms:dstt"){
@@ -107,7 +108,7 @@ if (app == "fb"){
     } else if (monhoc == "lms:fe"){
         alert ("Teleport Gate: Thiết Kế, Lập Trình Front-End")
         top.location = "https://fitdnu.net/course/view.php?id=67"
-    } else if (monhoc == "lms:cttdl"){
+    } else if (monhoc == "lms:ctdl"){
         alert ("Teleport Gate: Cấu Trúc Dữ Liệu và Giải Thuật")
         top.location = "https://fitdnu.net/course/view.php?id=62"
     } else if (monhoc == "lms:ktmt"){
