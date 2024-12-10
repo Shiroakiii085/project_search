@@ -1,6 +1,6 @@
 var app = "ID";
 app = window.prompt("Teleport Gate: Please choose ID!")
-console.log("ID: fb, tt, zl, ytb, codename:crack,ani , sc, lms, github,poke:rogue, y1:2")
+console.log("ID: fb, tt, zl, ytb, codename:crack,ani , sc, lms, github,poke:rogue, y1:2, cttsv")
 if (app == "fb"){
     alert ("Teleport Gate: Lét gâu to Phở Bò!")
     top.location = "https://www.facebook.com"
@@ -118,6 +118,9 @@ if (app == "fb"){
         alert ("Teleport Gate: ID Invalid!!!")
         top.location = "https://shiroakiii085.github.io/project_search/"
     }
+} else if (app == "cttsv"){
+    alert("Teleport Gate: Cổng thông tin thông tin Sinh Viên")
+    top.location = "https://ttsinhvien.dainam.edu.vn/"
 } else {
     alert ("Teleport Gate: ID Invalid!!!")
     top.location = "https://shiroakiii085.github.io/project_search/"
