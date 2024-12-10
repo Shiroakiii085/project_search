@@ -74,7 +74,7 @@ if (app == "fb"){
             var pas2 = "whotao"
             pass2 = window.prompt("Mysterious Voice: Enter the ADMINISTRATOR_PASSWORD2: ")
             if(pass2 == "1507"){
-                alert("WELCOMBACK MASTER!!!!")
+                alert("WELCOME BACK MASTER!!!!")
                 top.location = "https://github.com/Shiroakiii085/project_search"
             } else {
                 alert ("Mysterious Voice: FUCK OFFF!!!")
