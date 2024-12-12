@@ -76,14 +76,14 @@ if (app == "fb"){
             if(pass2 == "1507"){
                 alert("WELCOME BACK MASTER!!!!")
                 var ad_name = "Username"
-                ad_name = window.prompt("Now, show me your Username")
+                ad_name = window.prompt("Now, show me your Username!!!")
                 var project = "pj"
                 project = window.prompt("Hello " + ad_name + " ! Choose your project: ")
                 if (project == "project:wk") {
-                    alert( + ad_name + "Master!! Let's go to Project_Wukong!!!")
-                    top.location = "https://shiroakiii085.github.io/Project-WK/storyline.html"
+                    alert("Master!! Let's go to Project_Wukong!!!")
+                    top.location = "https://shiroakiii085.github.io/Project-WK/"
                 } else if (project == "project:wk:repo") {
-                    alert( + ad_name + "Master!! Let's go to Project_Wukong Repository!!!")
+                    alert("Master!! Let's go to Project_Wukong Repository!!!")
                     top.location = "https://github.com/Shiroakiii085/Project-WK"
                 } else {
                     alert ("Coming Soon, Back to Teleport Gate!!!")
