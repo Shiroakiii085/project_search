@@ -71,11 +71,24 @@ if (app == "fb"){
         pass1 = window.prompt("Mysterious Voice: Enter the ADMINISTRATOR_PASSWORD1: ")
         if(pass1 == "08052006"){
             alert("Mysterious Voice: Correct!!! Enter the ADMINISTRATOR PASSWORD2: ")
-            var pas2 = "whotao"
+            var pass2 = "whotao"
             pass2 = window.prompt("Mysterious Voice: Enter the ADMINISTRATOR_PASSWORD2: ")
             if(pass2 == "1507"){
                 alert("WELCOME BACK MASTER!!!!")
-                top.location = "https://github.com/Shiroakiii085/project_search"
+                var ad_name = "Username"
+                ad_name = window.prompt("Now, show me your Username")
+                var project = "pj"
+                project = window.prompt("Hello " + ad_name + " ! Choose your project: ")
+                if (project == "project:wk") {
+                    alert( + ad_name + "Master!! Let's go to Project_Wukong!!!")
+                    top.location = "https://shiroakiii085.github.io/Project-WK/storyline.html"
+                } else if (project == "project:wk:repo") {
+                    alert( + ad_name + "Master!! Let's go to Project_Wukong Repository!!!")
+                    top.location = "https://github.com/Shiroakiii085/Project-WK"
+                } else {
+                    alert ("Coming Soon, Back to Teleport Gate!!!")
+                    top.location = "https://shiroakiii085.github.io/project_search/"
+                }
             } else {
                 alert ("Mysterious Voice: FUCK OFFF!!!")
                 top.location = "https://shiroakiii085.github.io/project_search/"
