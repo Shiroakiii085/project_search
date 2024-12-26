@@ -137,6 +137,9 @@ if (app == "fb"){
 } else if (app == "story") {
     alert = ("Teleport Gate: Goctruyentranh!!!")
     top.location = "https://goctruyentranhvui6.com/trang-chu"
+} else if (app == "gemini"){
+    alert = ("Teleport Gate: Gemini-sensei")
+    top.location = "https://gemini.google.com/"
 } else {
     alert ("Teleport Gate: ID Invalid!!!")
     top.location = "https://shiroakiii085.github.io/project_search/"
